@@ -8,6 +8,7 @@ public class RestController {
 	@GetMapping("/greet")
 	public String Welcome()
 	{
+	        System.out.println("method execution started");
 		return "Welcome to Boot";
 	}
 	
